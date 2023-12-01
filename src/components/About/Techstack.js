@@ -9,6 +9,9 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiHtml5,
+  DiCss3,
+  DiBootstrap,
 } from "react-icons/di";
 import {
   SiRedis,
@@ -23,47 +26,102 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiHtml5 />
+        <p style={{
+          color: 'purple',
+          fontSize: '20px',
+          fontWeight: 'bold'
+        }} >HTML</p>
+
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
+        <p style={{
+          color: 'purple',
+          fontSize: '20px',
+          fontWeight: 'bold'
+        }} >CSS</p>
+
+
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiBootstrap />
+        <p style={{
+          color: 'purple',
+          fontSize: '20px',
+          fontWeight: 'bold'
+        }} >BootStrap</p>
+
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+        <p style={{
+          color: 'purple',
+          fontSize: '20px',
+          fontWeight: 'bold'
+        }} >JavaScript</p>
+
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
+        <p style={{
+          color: 'purple',
+          fontSize: '20px',
+          fontWeight: 'bold'
+        }} >Node.js</p>
+
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
+        <p style={{
+          color: 'purple',
+          fontSize: '20px',
+          fontWeight: 'bold'
+        }} >React.js</p>
+
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
+        <p style={{
+          color: 'purple',
+          fontSize: '20px',
+          fontWeight: 'bold'
+        }} >Mongo db</p>
+
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
+        <p style={{
+          color: 'purple',
+          fontSize: '20px',
+          fontWeight: 'bold'
+        }} >Next.js</p>
+
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+        <p style={{
+          color: 'purple',
+          fontSize: '20px',
+          fontWeight: 'bold'
+        }} >Git</p>
+
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
+        <p style={{
+          color: 'purple',
+          fontSize: '20px',
+          fontWeight: 'bold'
+        }} >Fire base</p>
+
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
+
+
+
+
     </Row>
   );
 }
